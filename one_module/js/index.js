@@ -27,6 +27,7 @@ var people = (function(){
         if(name != ''){
             people.push(name);
             _render();
+            $input.val('')
         }
     }
     function deletePerson(e){
